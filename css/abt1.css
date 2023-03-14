@@ -1,0 +1,87 @@
+:root{
+    --pink  : #ffaff4   ;
+    --dark  : #1c1a30   ;
+    --blue  : #198daa   ;
+    --Kblue : #644b75   ;
+}
+
+
+h2{
+    color: red;
+}
+
+.header2{
+    width: 100%;
+    height: 10cm;
+    position: relative !important; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5a43939d;
+}
+
+.header2::before{
+    content: "";
+    background-image: url("../images/abt.jpg");
+    background-size: 100% 10cm;
+    position: absolute;
+    top: -0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.9;
+    z-index:  -100 !important;
+}
+
+@media screen and (min-width:992px) {
+    .ndp{
+        position: absolute;
+        right: 0;
+        /* max-width: 5cm; */
+        
+    }
+}
+
+@media screen and (max-width:992px) {
+    .col-lg-6{
+        /* position: relative;
+        left: 10%; */
+        /* max-width: 5cm; */
+     text-align: center !important; 
+     margin: auto !important;  
+    }
+}
+
+
+@media screen and (max-width:992px) {
+    .ndp
+    {
+        /* position: relative;
+        left: 10%; */
+        /* max-width: 5cm; */
+     text-align: center !important; 
+     margin: auto !important;  
+    }
+}
+
+@media screen and (min-width:992px) {
+    .ndp2
+    {
+    position: absolute !important;
+    right: 120px !important;
+    }
+}
+
+.row .st img{
+    border-radius:50% 50% 0 50%  !important;
+}
+
+.row .nd img{
+    border-radius:50% 50% 50% 0 !important;
+}
+
+@media screen and (max-width:992px) {
+    .row .nd img{
+        border-radius:0 50% 50% 50% !important;
+    }
+}
