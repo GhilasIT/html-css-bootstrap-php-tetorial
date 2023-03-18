@@ -59,7 +59,7 @@
     <div class="pc">
         <div class="d-lg-flex h-100 align-items-end">
         <img src="images/make.jpg" class="rounded-pill w-100 h-100">
-        <p class="h1 pb-3 d-flex">Roh_1albi <i class="fa-solid fa-face-kiss-wink-heart text-warning"></i></p>
+        <p class="h1 pb-3 d-flex">Admin <i class="fa-solid fa-face-kiss-wink-heart text-warning"></i></p>
         </div>
     </div>
 
