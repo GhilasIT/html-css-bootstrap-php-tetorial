@@ -69,7 +69,7 @@
                 <h3 class="pt-3"><i class="fa-regular fa-handshake"></i>Points de contact :</h3>
                 <div class="rs">
                     <h4 class="pb-3 text-black-50 pt-3" style="padding: 0px !important;">Reseaux Sociaux</h4>
-                    <h5><a href="#"><i class="fa-brands fa-facebook"></i> Dihia Brand</a></h5>
+                    <h5><a href="https://web.facebook.com/profile.php?id=100090352539226"><i class="fa-brands fa-facebook"></i> Dihia Brand</a></h5>
                     <h5><a href="#" class="insta"><i class="fa-brands fa-instagram"></i> Dihia Brand</a></h5>
 
                 </div>

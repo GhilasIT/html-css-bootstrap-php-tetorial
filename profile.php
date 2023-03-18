@@ -1,8 +1,3 @@
-<?php
-include("conn.php");
-$query = mysqli_query($conn , 'SELECT * FROM prods');
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,40 +5,16 @@ $query = mysqli_query($conn , 'SELECT * FROM prods');
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/Logo.jpg">
-    <link rel="stylesheet" href="css/ContactUs.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/pf.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;1,300&display=swap" rel="stylesheet">
-    <title>DihiaBrand | Produits</title>
-    <style>
-      /* .btn
-      {
-        border-color: gold !important;
-        color: white !important;
-        font-weight: bold !important;
-        border-width: 2px !important;
-        z-index: 10;
-        background-color: #ffaff4 !important;
-      } */
-
-      .procrd:hover{
-        background-color: #ffc10775;
-        transition: 0.3s;
-      }
-
-      @media screen and (max-width:575px) {
-    .card{
-                  width:5cm !important;
-                  margin:auto;
-                }
-            }
-    </style>
+    <title>DihiaBrand | Profile</title>
 </head>
-<body style="font-family: 'Josefin Sans', sans-serif;">
-<nav class="navbar navbar-expand-lg bg-body-tertiary d-flex shadow  bg-secondary">
+<body class="pb-5">
+<nav class="navbar navbar-expand-lg bg-body-tertiary d-flex bg-dark">
   <div class="container">
     <a class="navbar-brand text-white fw-bold" href="index.php"><img class="image-fluid rounded" style="height: 50px;" src="images/Logo1.png" alt="" srcset=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,29 +54,18 @@ $query = mysqli_query($conn , 'SELECT * FROM prods');
     </div>
   </div>
 </nav>
-    <div class="position-relative container bg-light pt-5" style="top: 2cm">
-    <h1 class="text-center pb-5">Tout Les Produits</h1>
-    <div class="row" style="font-family: 'Josefin Sans', sans-serif;">
-      <?php
-          while($row = mysqli_fetch_assoc($query)){ 
-            $y = $row['Name'];
-            $t = ucfirst($y);
-            echo " 
-              <div class='col-lg-2 col-md-4 col'>
-                <main>        
-                  <div  class='card text-center border border-warning mt-0 mb-5 procrd'>
-                      <img src='$row[Images]' class='card-img-top' style='height:5cm ;'>
-                      <div class='card-body'>
-                          <h5  id='ighmh' style=' font-weight:bold' class='card-title'>$t</h5>               
-                          <p style=' font-weight:bold' class='card-text'>$row[Price] DA</p>
-                          <a href='val.php?id=$row[Id]' class='btn btn-warning text-light fw-bold'>Acheter</a>                    
-                      </div>
-                  </div>     
-                </main> 
-              </div>
-          ";  }
-      ?>
-      </div>
+    <div class="header1">
+    </div>
+    <div class="pc">
+        <div class="d-lg-flex h-100 align-items-end">
+        <img src="images/make.jpg" class="rounded-pill w-100 h-100">
+        <p class="h1 pb-3 d-flex">Roh_1albi <i class="fa-solid fa-face-kiss-wink-heart text-warning"></i></p>
+        </div>
+    </div>
+
+    <div class="container text-center">
+        <h1 class="pb-5">From Contact Page</h1>
+           
     </div>
     <script src="js/all.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>

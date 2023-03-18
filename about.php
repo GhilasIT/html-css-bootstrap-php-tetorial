@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;1,300&display=swap" rel="stylesheet">
     <title>Dihia Brand | Sure Nous</title>
 </head>
-<body >
+<body  style="font-family: 'Josefin Sans', sans-serif;">
 <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex">
   <div class="container">
     <a class="navbar-brand text-white fw-bold" href="index.php"><img class="image-fluid rounded" style="height: 50px;" src="images/Logo1.png" alt="" srcset=""></a>
@@ -67,7 +67,7 @@
 
     <div class="col-lg-6 position-relative ">
           <div class="w-75 p-1 m-0 ndp ndp2">
-            <h1 class="fw-bold">qui nous sommes</h1>
+            <h1 class="fw-bold">Qui Nous Sommes</h1>
             <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem praesentium atque quaerat magni eos dicta nulla quidem
               dolorum ipsum quibusdam minus et aperiam suscipit unde fugit, voluptatum enim eaque exercitationem!</p>
           </div>

@@ -1,0 +1,75 @@
+
+.header1{
+    width: 100%;
+    height: 12cm;
+    position: relative !important; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #5a43939d; */
+}
+
+.header1::before{
+    content: "";
+    background-image: url("../images/abs.jpg");
+    background-size: 100% 100%;
+    position: absolute;
+    top: -0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.7;
+    z-index:  -100 !important;
+}
+
+
+
+
+@media screen and (min-width:992px) {
+    .pc
+    {
+        position: relative;
+        top: -3.5cm;
+        left: 20%;
+    }
+
+    .pc img{
+        border: 5px solid white;
+    }
+
+    .pc{
+        width:7cm;
+        height: 7cm;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .pc
+    {
+        position: relative;
+        top: -3.5cm;
+        left: calc(50% - 2.5cm);
+    }
+
+    .pc img{
+        border: 5px solid white;
+        display: block !important;
+    }
+
+    .header1{
+        height: 8cm;
+
+    }
+
+    .pc{
+        width:5cm;
+        height: 5cm;
+        top: -2.5cm;
+    }
+    .pc p{
+        display: flex !important;
+        justify-content: center;
+    }
+
+    
+}
